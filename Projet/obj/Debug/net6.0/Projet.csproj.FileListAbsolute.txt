@@ -1,0 +1,45 @@
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\bin\Debug\net6.0\Projet.exe
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\bin\Debug\net6.0\Projet.deps.json
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\bin\Debug\net6.0\Projet.runtimeconfig.json
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\bin\Debug\net6.0\Projet.dll
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\bin\Debug\net6.0\Projet.pdb
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\Projet.csproj.AssemblyReference.cache
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\Projet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\Projet.AssemblyInfoInputs.cache
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\Projet.AssemblyInfo.cs
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\Projet.csproj.CoreCompileInputs.cache
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\Projet.dll
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\refint\Projet.dll
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\Projet.pdb
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\Projet.genruntimeconfig.cache
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.03 - Analyse\Projet\Projet\obj\Debug\net6.0\ref\Projet.dll
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.exe
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.deps.json
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.runtimeconfig.json
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.dll
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.pdb
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.csproj.AssemblyReference.cache
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.AssemblyInfoInputs.cache
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.AssemblyInfo.cs
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.csproj.CoreCompileInputs.cache
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.dll
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\refint\Projet.dll
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.pdb
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.genruntimeconfig.cache
+C:\Users\Florent\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\ref\Projet.dll
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.csproj.AssemblyReference.cache
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.GeneratedMSBuildEditorConfig.editorconfig
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.AssemblyInfoInputs.cache
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.AssemblyInfo.cs
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.csproj.CoreCompileInputs.cache
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.dll
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\refint\Projet.dll
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.pdb
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.exe
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.deps.json
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.runtimeconfig.json
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.dll
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\bin\Debug\net6.0\Projet.pdb
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\Projet.genruntimeconfig.cache
+G:\Mon Drive\Cours IUT\R3.00\R3.02 - Développement Efficace\Projet\Projet\Projet\obj\Debug\net6.0\ref\Projet.dll
