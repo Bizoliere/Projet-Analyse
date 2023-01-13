@@ -86,30 +86,35 @@ namespace Projet
         /// <returns>True si l'élément est correcte, False s'il est incorrecte</returns>
         static bool VerificationElement(string chaine)
         {
-            bool operateurPM = false, operateurFD = false, nombre = false, virgule = false, resultat = true;
+            bool operateurPM = false, operateurFD = false, nombre = false, virgule = false, resultat = true, passage = false;
             foreach (char cara in chaine)
             {
                 if (!operateurPM && !nombre && !operateurFD)
                 {
-                    op1(cara, ref nombre, ref operateurPM, ref operateurFD);
+                    verificationPhase1(cara, ref nombre, ref operateurPM, ref operateurFD);
+                    passage = true;
                 }
-                else if ((nombre && !operateurFD))
+                if ((nombre && !operateurFD) && !passage)
                 {
-                    op2(cara,ref virgule, ref resultat);
+                    verificationSiNombre(cara, ref virgule, ref resultat);
+                    passage = true;
                 }
-                else if (!nombre && operateurPM && !operateurFD)
+                if (!nombre && operateurPM && !operateurFD && !passage)
                 {
-                    op3(cara, ref nombre, ref resultat);
+                    verificationSiOperateurPlusMoins(cara, ref nombre, ref resultat);
+                    passage = true;
                 }
-                else if (operateurFD || operateurPM)
+                if ((operateurFD || operateurPM) && !passage)
                 {
                     resultat = false;
+                    passage = true;
                 }
+                passage = false;
             }
             return resultat;
         }
 
-        static void op3(char cara, ref bool nombre, ref bool resultat)
+        static void verificationSiOperateurPlusMoins(char cara, ref bool nombre, ref bool resultat)
         {
             if ((int)cara <= 57 && (int)cara >= 48)
             {
@@ -121,35 +126,63 @@ namespace Projet
             }
         }
 
-        static void op2(char cara, ref bool virgule, ref bool resultat)
+        static void verificationSiNombre(char cara, ref bool virgule, ref bool resultat)
         {
-            if (((int)cara > 57 || (int)cara < 48) && cara != ',')
+            switch (cara)
             {
-                resultat = false;
-            }
-            else if (cara == ',' && !virgule)
-            {
-                virgule = true;
-            }
-            else if (cara == ',' && virgule)
-            {
-                resultat = false;
+                case '0':
+                case '1':
+                case '2':
+                case '3':
+                case '4':
+                case '5':
+                case '6':
+                case '7':
+                case '8':
+                case '9':
+                    break;
+                case ',':
+                    if (virgule)
+                    {
+                        resultat = false;
+                    }
+                    else
+                    {
+                        virgule = true;
+                    }
+                    break;
+                default:
+                    resultat = false;
+                    break;
             }
         }
 
-        static void op1(char cara, ref bool nombre, ref bool operateurPM, ref bool operateurFD)
+        static void verificationPhase1(char cara, ref bool nombre, ref bool operateurPM, ref bool operateurFD)
         {
-            if ((int)cara <= 57 && (int)cara >= 48)
+            switch (cara)
             {
-                nombre = true;
-            }
-            else if (cara == '+' || cara == '-')
-            {
-                operateurPM = true;
-            }
-            else if (cara == '*' || cara == '/')
-            {
-                operateurFD = true;
+                case '0':
+                case '1':
+                case '2':
+                case '3':
+                case '4':
+                case '5':
+                case '6':
+                case '7':
+                case '8':
+                case '9':
+                    nombre = true;
+                    break;
+                case '+':
+                case '-':
+                    operateurPM = true;
+                    break;
+                case '*':
+                case '/':
+                    operateurFD = true;
+                    break;
+                default:
+                    break;
             }
         }
 
@@ -279,7 +312,7 @@ namespace Projet
         static string depile(ref List<string> maListe){
             if(maListe == null)
             {
-                throw new NullReferenceException("maListe");
+                throw new ArgumentNullException("maListe");
             }
 
             string nombre = maListe[maListe.Count - 1];
@@ -295,11 +328,11 @@ namespace Projet
         static void empile(ref List<string> maListe,string nombre){
             if (maListe == null)
             {
-                throw new NullReferenceException("maListe");
+                throw new ArgumentNullException("maListe");
             }
             if (nombre == null)
             {
-                throw new NullReferenceException("nombre");
+                throw new ArgumentNullException("nombre");
             }
             maListe.Add(nombre);
         }
